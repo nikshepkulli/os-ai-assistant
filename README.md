@@ -1,6 +1,15 @@
 # OS AI Assistant
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![GitHub issues](https://img.shields.io/github/issues/nikshepkulli/os-ai-assistant)](https://github.com/nikshepkulli/os-ai-assistant/issues)
+[![GitHub stars](https://img.shields.io/github/stars/nikshepkulli/os-ai-assistant)](https://github.com/nikshepkulli/os-ai-assistant/stargazers)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+
 An AI-powered voice assistant that enables complete OS control through natural language commands - no mouse or keyboard required.
+
+> **🌟 Open Source Project** - We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
 ## Vision
 
@@ -201,9 +210,35 @@ See [CONTRIBUTING.md](CONTRIBUTING.md)
 - Explicit consent for sensitive operations
 - Open source and auditable
 
+**Security Vulnerability?** See [SECURITY.md](SECURITY.md) for responsible disclosure.
+
+## Community
+
+We welcome contributions from everyone! Here's how to get involved:
+
+### Contributing
+
+- 📖 Read our [Contributing Guidelines](CONTRIBUTING.md)
+- 🐛 Report bugs via [GitHub Issues](https://github.com/nikshepkulli/os-ai-assistant/issues)
+- 💡 Suggest features via [Feature Requests](https://github.com/nikshepkulli/os-ai-assistant/issues/new?template=feature_request.md)
+- 🔧 Submit pull requests to improve the code
+- ⭐ Star the repo if you find it useful!
+
+### Code of Conduct
+
+We are committed to providing a welcoming and inclusive experience for everyone. Please read our [Code of Conduct](CODE_OF_CONDUCT.md).
+
+### Getting Help
+
+- 📚 Check the [Documentation](docs/)
+- 💬 Open a [Discussion](https://github.com/nikshepkulli/os-ai-assistant/discussions)
+- ❓ Ask questions in [Issues](https://github.com/nikshepkulli/os-ai-assistant/issues/new?template=question.md)
+
 ## License
 
-MIT License - see LICENSE file
+MIT License - see [LICENSE](LICENSE) file
+
+This project is free and open-source software. You are free to use, modify, and distribute it under the terms of the MIT license.
 
 ## Acknowledgments
 
