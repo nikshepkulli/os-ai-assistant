@@ -1,0 +1,55 @@
+# Core dependencies for OS AI Assistant MVP
+
+# Audio Processing
+pyaudio>=0.2.13
+sounddevice>=0.4.6
+
+# Speech Recognition
+openai-whisper>=20230918
+SpeechRecognition>=3.10.0
+
+# Wake word detection
+pvporcupine>=2.2.0
+
+# Natural Language Understanding
+langchain>=0.1.0
+langchain-openai>=0.0.2
+openai>=1.12.0
+
+# Text-to-Speech
+pyttsx3>=2.90
+
+# OS Automation - macOS
+pyobjc>=9.2; sys_platform == 'darwin'
+pyobjc-framework-Cocoa>=9.2; sys_platform == 'darwin'
+pyobjc-framework-Quartz>=9.2; sys_platform == 'darwin'
+
+# OS Automation - Cross-platform
+pyautogui>=0.9.54
+pynput>=1.7.6
+
+# UI
+pystray>=0.19.5
+Pillow>=10.0.0
+
+# Configuration
+PyYAML>=6.0.1
+python-dotenv>=1.0.0
+
+# Utilities
+requests>=2.31.0
+aiohttp>=3.9.0
+
+# Development and Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0
+black>=23.3.0
+pylint>=2.17.0
+mypy>=1.4.0
+
+# Logging and Monitoring
+colorlog>=6.7.0
+
+# Build and Distribution
+pyinstaller>=5.13.0

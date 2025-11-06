@@ -1,0 +1,69 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Logs
+*.log
+logs/
+.os-ai-assistant/
+
+# Configuration
+config/config.yaml
+.env
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# User data
+user_data/
+*.db
+*.sqlite
+
+# API Keys
+secrets.yaml
+credentials.json
+
+# Build artifacts
+*.dmg
+*.exe
+*.app

@@ -1,0 +1,104 @@
+# Default configuration for OS AI Assistant
+
+# Voice Input Settings
+voice:
+  hotword: "hey assistant"
+  language: "en-US"
+  push_to_talk_key: "cmd+shift+space"  # macOS default
+  sensitivity: 0.5  # Wake word sensitivity (0-1)
+
+# Speech-to-Text Settings
+stt:
+  provider: "whisper"  # Options: "whisper", "google"
+  model: "base"  # Whisper models: tiny, base, small, medium, large
+  language: "en"
+
+  # Google Speech API (if using)
+  google_api_key: ""  # Set via environment or user config
+
+# Natural Language Understanding
+nlu:
+  provider: "openai"  # Options: "openai", "claude"
+  model: "gpt-4o-mini"  # Cost-effective option
+  api_key: ""  # Set via OPENAI_API_KEY env var or user config
+
+  # LLM settings
+  temperature: 0.1  # Low temperature for consistent intent classification
+  max_tokens: 200
+  timeout: 5  # seconds
+
+# Text-to-Speech Settings
+tts:
+  enabled: true
+  provider: "pyttsx3"  # Options: "pyttsx3", "elevenlabs"
+  voice: "default"  # System default voice
+  rate: 175  # Speaking rate (words per minute)
+  volume: 0.8  # Volume (0-1)
+
+# UI Settings
+ui:
+  overlay:
+    enabled: true
+    position: "top-center"  # Options: top-center, top-left, top-right
+    auto_hide_delay: 3  # seconds
+    opacity: 0.9
+
+  tray:
+    enabled: true
+    show_notifications: true
+
+# Security Settings
+security:
+  # Operations requiring user confirmation
+  require_confirmation:
+    - delete_file
+    - delete_folder
+    - run_script
+    - system_shutdown
+    - system_restart
+    - modify_system_settings
+
+  # Allowed commands (empty = all allowed)
+  whitelist: []
+
+  # Blocked commands
+  blacklist:
+    - "format_disk"
+    - "delete_system_files"
+
+  # Command history
+  log_commands: true
+  max_history: 1000
+
+# Automation Settings
+automation:
+  # File operations default locations
+  default_paths:
+    documents: "~/Documents"
+    desktop: "~/Desktop"
+    downloads: "~/Downloads"
+
+  # Browser preference
+  default_browser: "default"  # or "chrome", "safari", "firefox"
+
+  # Search engine
+  search_engine: "google"  # or "duckduckgo", "bing"
+
+# Performance Settings
+performance:
+  max_audio_duration: 15  # Maximum command duration in seconds
+  processing_timeout: 10  # Maximum processing time in seconds
+
+# Logging Settings
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR, CRITICAL
+  file_enabled: true
+  console_enabled: true
+  max_file_size: 10485760  # 10MB
+  backup_count: 5
+
+# Privacy Settings
+privacy:
+  send_telemetry: false
+  store_audio_locally: false
+  anonymize_logs: true
